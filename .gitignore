@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Ortam ve gizli bilgiler
+.env
+.streamlit/secrets.toml
+
+# Veri ve model dosyaları (repoya eklemeyin)
+*.gguf
+*.bin
+*.safetensors
+data/uploads/
+chroma_db/
+*.sqlite3
+*.db
+
+# IDE / işletim sistemi
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
